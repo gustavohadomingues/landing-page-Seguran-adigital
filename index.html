@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Segurança Digital: dicas simples para o dia a dia</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Figtree:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-in">
+    <div>
+      <h1>Segurança <span>digital</span> sem complicação</h1>
+      <p>Dicas simples para usar a internet com mais tranquilidade no seu dia a dia. Dá para fazer tudo hoje, em poucos minutos.</p>
+      <a class="btn" href="#escudo">Montar meu escudo</a>
+    </div>
+    <!-- escudo desenhado em css -->
+    <div class="escudo-hero" aria-hidden="true"><div class="cadeado"></div></div>
+  </div>
+</header>
+
+<main>
+  <section class="porque">
+    <h2>Por que se preocupar?</h2>
+    <p>A internet facilita a nossa vida, mas também pode ser usada por pessoas mal-intencionadas para roubar <b>dados</b>, <b>dinheiro</b> e <b>informações pessoais</b>.</p>
+  </section>
+
+  <section id="escudo" class="montar">
+    <h2>Monte seu escudo</h2>
+    <p class="sub">Marque o que você já faz. Cada cuidado acende uma parte da proteção.</p>
+
+    <input type="checkbox" id="c1"><input type="checkbox" id="c2"><input type="checkbox" id="c3"><input type="checkbox" id="c4"><input type="checkbox" id="c5">
+
+    <div class="barra" aria-hidden="true"><i class="s1"></i><i class="s2"></i><i class="s3"></i><i class="s4"></i><i class="s5"></i></div>
+
+    <ul class="itens">
+      <li><label for="c1"><span class="caixa"></span><span><b>Use senhas fortes</b>Misture letras, números e símbolos. Evite data de aniversário e nome do pet.</span></label></li>
+      <li><label for="c2"><span class="caixa"></span><span><b>Desconfie de mensagens suspeitas</b>Não clique em links de desconhecidos, mesmo que a mensagem pareça urgente.</span></label></li>
+      <li><label for="c3"><span class="caixa"></span><span><b>Baixe apenas de locais confiáveis</b>Use a loja oficial do seu celular ou do computador.</span></label></li>
+      <li><label for="c4"><span class="caixa"></span><span><b>Mantenha tudo atualizado</b>As atualizações corrigem falhas de segurança.</span></label></li>
+      <li><label for="c5"><span class="caixa"></span><span><b>Cuidado com Wi-Fi público</b>Evite acessar bancos ou informações sensíveis nessas redes.</span></label></li>
+    </ul>
+    <p class="parabens">Escudo completo! Falta só ativar a verificação em duas etapas, logo abaixo.</p>
+  </section>
+
+  <section class="golpes">
+    <h2>Isso é golpe?</h2>
+    <p class="sub">Três armadilhas bem comuns. Abra cada uma para ver como perceber.</p>
+    <details>
+      <summary>Oferta com preço muito baixo</summary>
+      <p><b>Sinal:</b> o produto custa metade do preço de qualquer loja e o vendedor pede pagamento fora do site.<br><b>O que fazer:</b> pesquise a loja, veja se o endereço do site é o oficial e pague só pelos meios da própria plataforma.</p>
+    </details>
+    <details>
+      <summary>Pedido de PIX por mensagem</summary>
+      <p><b>Sinal:</b> alguém conhecido, com foto nova, diz que mudou de número e precisa de um PIX urgente.<br><b>O que fazer:</b> ligue para a pessoa no número antigo antes de transferir qualquer valor.</p>
+    </details>
+    <details>
+      <summary>Boleto ou conta falsa</summary>
+      <p><b>Sinal:</b> boleto que chega por mensagem sem você ter pedido, com nome do beneficiário diferente do esperado.<br><b>O que fazer:</b> confira os dados no app do banco e peça a segunda via pelo canal oficial.</p>
+    </details>
+  </section>
+
+  <section class="dica">
+    <div>
+      <h2>Dica extra: duas etapas</h2>
+      <p>Ative a verificação em duas etapas no WhatsApp, no e-mail e nos bancos. Mesmo que descubram sua senha, ainda precisam de um segundo código que só você recebe.</p>
+    </div>
+    <div class="fluxo" aria-label="Como funciona a verificação em duas etapas">
+      <span>Senha</span><em></em><span>Código no celular</span><em></em><span class="ok">Entrou</span>
+    </div>
+  </section>
+</main>
+
+<footer>Segurança digital · um cuidado por vez já faz diferença.</footer>
+</body>
+</html>
